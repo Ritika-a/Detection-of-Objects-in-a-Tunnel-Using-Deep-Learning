@@ -14,15 +14,15 @@ The overall purpose if this project was to identify the locations of different m
 6. Python code - yolov_train_ritika, yolo_test_ritika                                       
 
 ### Pre-requisites to run the code:
-1. Python3, Tensorflow, Numpy , OpenCV, Matplotlib
+1. Python3, Tensorflow, Numpy , OpenCV, Matplotlib, Cython
 
 ### Steps to run the code
 1. Git clone this repository
-2. Start jupyter notebook in the directory "Darkflow_Object_Identification_Capstone"
-3. The above directory should be your current working directory
-4. There are two files 1)yolo_train_ritika and 2) yolo_test_ritika
-5. If you want to visualize the results , open up yolo_test_ritika.ipnyb. 
-6. Run the jupyter notebook.
-  a. If you 
+2. Navigate to Darkflow folder. You should be able to see setup.py file.
+3. In this directory run the following command 'python setup.py build_ext --inplace'. According to the darflow author thtrieu, you need to    build the Cython extensions. 
+2. There are two more files in this directory 1)yolo_train_ritika and 2) yolo_test_ritika
+3. If you want to visualize the results , open up yolo_test_ritika.ipnyb.  
+4. Run the jupyter notebook.
+ 
  
 
