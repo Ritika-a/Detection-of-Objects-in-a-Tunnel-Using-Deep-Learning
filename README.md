@@ -9,7 +9,7 @@ The overall purpose if this project was to identify the locations of different m
 1. Report on project
 2. Darkflow code 
 3. Python code for training and testing- yolo_train_ritika, yolo_test_ritika
-3. Presentation slides                                        
+                                        
 
 ### Pre-requisites to run the code:
 1. Python3, Tensorflow, Numpy-1.16.3 , OpenCV(opencv-python), Matplotlib, Cython
@@ -26,7 +26,7 @@ B) FROM THE ZIP FILE NAMED "DATS 6501 - Capstone Project - Ritika Agarwal"
 4. Run the jupyter notebook.
 5. The test results, will be saved in a directory named "out" within the test_images directory. 
  
- Note:If there is an error saying that it cannot find cy_yolo_findboxes, then you shoudld do the following. According to the darflow author thtrieu, you need to  build the Cython extensions. In order to do so, in the darkflow directory (where setup.py exists) run the following command 'python setup.py build_ext --inplace'. You will be able to see installations in the cython_utils directory.
+ Note:If there is an error saying that it cannot find cy_yolo_findboxes, then you shoudld do the following. According to the darflow author thtrieu, you need to  build the Cython extensions. In order to do so, in the darkflow directory (where setup.py exists) run the following command 'python setup.py build_ext --inplace' from your terminal/command prompt. You will be able to see installations in the cython_utils directory.
  
  ### References
  1. Thtrieu.(2017)- Darkflow code . https://github.com/thtrieu/darkflow 
