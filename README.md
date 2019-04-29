@@ -1,7 +1,7 @@
 # Detetction of Objects in a Tunnel Using Deep Learning
 Using Darkflow, to implement the Yolo algorithm to identify objects in images of the interior of a tunnel created from point cloud data
 
-## Abstract
+### Abstract
 LiDAR scans capture minute details of the boundaries and the surface of a structure. It generates huge amounts of point cloud information which when processed and analyzed can show interesting features and generate 3D digital models of the structure. A large amount of point cloud data was generated of a LiDAR scan taken of a tunnel.
 The overall purpose if this project was to identify the locations of different materials in this tunnel using the point cloud data. The point cloud data was converted into images which were used for object detection. We used the state of the art YOLOv2 algorithm to carry out object detection to identify the objects of interest. Our project shows that the algorithm can detect most objects of interest, with confidence going up to 0.80, however it does not necessarily identify all the instances of the objects. Some overlapping objects are identified with high confidence but the generated bounding boxes are not accurate.
 
@@ -14,7 +14,7 @@ The overall purpose if this project was to identify the locations of different m
 6. Python code - yolov_train_ritika, yolo_test_ritika                                       
 
 ### Pre-requisites to run the code:
-1. Python3, Tensorflow, Numpy , OpenCV, Matplotlib, Cython
+1. Python3, Tensorflow, Numpy-1.16.3 , OpenCV(opencv-python), Matplotlib, Cython
 
 ### Steps to run the code
 A) FROM THIS REPOSITORY
@@ -36,11 +36,11 @@ B) FROM THE ZIP FILE NAMED "DATS 6501 - Capstone Project - Ritika Agarwal"
 4. If you want to visualize the results , open up yolo_test_ritika.ipnyb.  
 5. Run the jupyter notebook.
  
- ### References
- [1] Thtrieu.(2017)- Darkflow code . https://github.com/thtrieu/darkflow 
- [2] Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg
- [3] Lidar-UK Websites. Taken from http://www.lidar-uk.com/usage-of-lidar/
- [4] Park Chansung. (2018) YOLOv2 to detect your own objects using Darkflow.  Taken from https://towardsdatascience.com/yolov2-to-      detect-your-own-objects-soccer-ball-using-darkflow-a4f98d5ce5bf
+ ## References
+ 1. Thtrieu.(2017)- Darkflow code . https://github.com/thtrieu/darkflow 
+ 2. Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg
+ 3. Lidar-UK Websites. Taken from http://www.lidar-uk.com/usage-of-lidar/
+ 4. Park Chansung. (2018) YOLOv2 to detect your own objects using Darkflow.  Taken from https://towardsdatascience.com/yolov2-to-      detect-your-own-objects-soccer-ball-using-darkflow-a4f98d5ce5bf
  
  
 
