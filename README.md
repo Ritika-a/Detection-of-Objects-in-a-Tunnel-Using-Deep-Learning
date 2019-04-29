@@ -28,7 +28,7 @@ B) FROM THE ZIP FILE NAMED "DATS 6501 - Capstone Project - Ritika Agarwal"
  
  Note:If there is an error saying that it cannot find cy_yolo_findboxes, then you shoudld do the following. According to the darflow author thtrieu, you need to  build the Cython extensions. In order to do so, in the darkflow directory (where setup.py exists) run the following command 'python setup.py build_ext --inplace'. You will be able to see installations in the cython_utils directory.
  
- ## References
+ ### References
  1. Thtrieu.(2017)- Darkflow code . https://github.com/thtrieu/darkflow 
  2. Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg
  3. Lidar-UK Websites. Taken from http://www.lidar-uk.com/usage-of-lidar/
