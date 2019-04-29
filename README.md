@@ -20,10 +20,11 @@ A)FROM THIS REPOSITORY - I have not uploaded the images or labels for training t
 To  run the darkflow code for your own dataset, you can got go to the official Darkflow page and follow the instructions given in the readme file. https://github.com/thtrieu/darkflow. I have additionally provided 2 ipnyb file, yolo_train_ritika and yolo_test_ritika to train as well as generate predictions for your own data. You can modify the paths for the images and annotations to point to your data and run the codes after setting up darkflow.
 
 B) FROM THE ZIP FILE NAMED "DATS 6501 - Capstone Project - Ritika Agarwal"
-1. Navigate to Darkflow folder with setup.py
+1. Navigate to Darkflow_Object_detection_tunnel/Darkflow folder with the setup.py in it.
 2. There are two more files in this directory 1)yolo_train_ritika and 2) yolo_test_ritika
-3. If you want to visualize the results , open up yolo_test_ritika.ipnyb.  
+3. If you want to visualize the results , open up yolo_test_ritika.ipnyb. Make sure that the darkflow directory where these files exist is your current working directory.
 4. Run the jupyter notebook.
+5. The test results, will be saved in a directory named "out" within the test_images directory. 
  
  Note:If there is an error saying that it cannot find cy_yolo_findboxes, then you shoudld do the following. According to the darflow author thtrieu, you need to  build the Cython extensions. In order to do so, in the darkflow directory (where setup.py exists) run the following command 'python setup.py build_ext --inplace'. You will be able to see installations in the cython_utils directory.
  
