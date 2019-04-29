@@ -1,4 +1,4 @@
-# Darkflow-Object-Identification-Tunnel-
+# Detetction of Objects in a Tunnel Using Deep Learning
 Using Darkflow, to implement the Yolo algorithm to identify objects in images of the interior of a tunnel created from point cloud data
 
 ## Abstract
@@ -26,6 +26,9 @@ A) FROM THIS REPOSITORY
 3. If you want to visualize the results , open up yolo_test_ritika.ipnyb.  
 4. Run the jupyter notebook.
 
+A)FROM THIS REPOSITORY - I have not uploaded the images or labels for training the data. 
+To  run the darkflow code for your own dataset, you can got go to the official Darkflow page and follow the instructions. https://github.com/thtrieu/darkflow. I have provided a ipnyb file, yolo_train_ritika and yolo_test_ritika to train as well as generate predictions for your own data. 
+
 B) FROM THE ZIP FILE NAMED "DATS 6501 - Capstone Project - Ritika Agarwal"
 1. Navigate to Darkflow folder with setup.py
 2. According to the darflow author thtrieu, you need to  build the Cython extensions. In order to do so, in the darkflow directory run      the    following command 'python setup.py build_ext --inplace'. You will be able to see installations in the cython_utils directory.
@@ -34,6 +37,10 @@ B) FROM THE ZIP FILE NAMED "DATS 6501 - Capstone Project - Ritika Agarwal"
 5. Run the jupyter notebook.
  
  ##References
+ [1] Thtrieu.(2017)- Darkflow code . https://github.com/thtrieu/darkflow 
+ [2] Tzutalin. LabelImg. Git code (2015). https://github.com/tzutalin/labelImg
+ [3] Lidar-UK Websites. Taken from http://www.lidar-uk.com/usage-of-lidar/
+ [4] Park Chansung. (2018) YOLOv2 to detect your own objects using Darkflow.  Taken from https://towardsdatascience.com/yolov2-to-      detect-your-own-objects-soccer-ball-using-darkflow-a4f98d5ce5bf
  
  
 
